@@ -7,7 +7,7 @@ class Main extends Component {
     return (
       <div id="main">
       main
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="main-loading" alt="now loading" />
       </div>
     );
   }
