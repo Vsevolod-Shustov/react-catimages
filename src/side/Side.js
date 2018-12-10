@@ -5,7 +5,7 @@ class Side extends Component {
   render() {
     return (
       <div id="side">
-      side
+        side
       </div>
     );
   }

@@ -6,11 +6,11 @@ import paw from './paw.svg';
 class Image extends Component {
   render() {
     return (
-      <div classNmae="imagewrapper" style={{
+      <div className="imagewrapper" style={{
           backgroundImage: 'url(' + paw + ')',
           backgroundPosition: 'center center',
           backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover'
+          backgroundSize: 'contain'
         }}>
         <div className="image" style={{
           backgroundImage: 'url(' + this.props.url + ')',
