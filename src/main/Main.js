@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './Main.css';
 import Image from '../image/Image.js';
 
@@ -22,7 +21,7 @@ class Main extends Component {
     // })
     .then(json => {
       this.setState({ images: json });
-      console.log(json);
+      //console.log(json);
     });
   }
   
