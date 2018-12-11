@@ -3,6 +3,23 @@
   max-width:100%;
 }
 
+#main .image {
+  margin-bottom:8px;
+}
+
+@media only screen and (min-width:480px) {
+  #main {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:1fr;
+    grid-gap: 8px;
+  }
+  
+  #main .image {
+    margin:0;
+  }
+}
+
 @media only screen and (min-width:980px) {
   #main {
     display:grid;
@@ -10,10 +27,4 @@
     grid-template-rows:1fr;
     grid-gap: 8px;
   }
-  
-  #main .image {
-    
-  }
-  
-  
 }

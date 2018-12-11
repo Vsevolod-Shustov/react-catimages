@@ -3,17 +3,22 @@
   --margin-half:8px;
 }
 
+* {
+  box-sizing:border-box;
+}
+
 body {
   font-size:16px;
   font-family:verdana, sans-serif;
   margin:0 auto;
+  padding:0 var(--margin-half);
 }
 
 #header, #footer, #main, #side {
   border:1px solid #ccc;
   padding:8px;
   border-radius:4px;
-  background:#ffe;
+  background-color:#ffe;
 }
 
 #header {
@@ -31,6 +36,10 @@ body {
 
 #footer {
   margin-bottom:var(--margin-half);
+}
+
+@media only screen and (max-width:979px) {
+  
 }
 
 @media only screen and (min-width:980px) {
