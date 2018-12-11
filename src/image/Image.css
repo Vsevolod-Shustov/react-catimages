@@ -1,0 +1,15 @@
+.imagewrapper {
+  position:relative;
+}
+
+.imagewrapper .magnifier {
+  position:absolute;
+  right:8px;
+  bottom:8px;
+  text-align:right;
+}
+
+.imagewrapper .magnifier i {
+  font-size:50px;
+  color:white;
+}

@@ -20,6 +20,9 @@ class Image extends Component {
         }}>
           <img src={transparent} alt="" />
         </div>
+        <div className="magnifier">
+          <a href={this.props.url} target="_blank"><i class="fas fa-search-plus"></i></a>
+        </div>
       </div>
     );
   }
