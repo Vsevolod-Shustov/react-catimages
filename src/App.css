@@ -12,13 +12,15 @@ body {
   font-family:verdana, sans-serif;
   margin:0 auto;
   padding:0 var(--margin-half);
+  background-color:#ffe;
 }
 
 #header, #footer, #main, #side {
-  border:1px solid #ccc;
+  /*border:1px solid #ccc;*/
   padding:8px;
   border-radius:4px;
-  background-color:#ffe;
+  background-color:#fff;
+  box-shadow:2px 2px 8px #bbb;
 }
 
 #header {
