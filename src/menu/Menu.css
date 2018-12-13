@@ -16,6 +16,7 @@
   
   #menu .menu_item {
     display:block;
+    max-width:320px;
     margin:0 auto 8px;
   }
   
@@ -33,8 +34,11 @@
     cursor:pointer;
   }
   
-  #menu_items_wrapper_wrapper {
-    display:none;
+  #menu_items_wrapper.menu_mobile_toggled_on {
+    display: block;
+  }
+  #menu_items_wrapper {
+    display: none;
   }
 }
 
@@ -44,6 +48,10 @@
     flex-flow: row wrap;
     align-content: space-between;
     margin-bottom:-8px;
+  }
+  #menu_items_wrapper.menu_mobile_toggled_on,
+  #menu_items_wrapper.menu_mobile_toggled_off {
+    display: flex;
   }
   
   #menu .menu_item {
