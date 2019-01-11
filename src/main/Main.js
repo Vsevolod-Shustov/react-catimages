@@ -9,6 +9,7 @@ class Main extends Component {
     this.state = {
       images: []
     };
+    this.getImages=this.getImages.bind(this);
   }
   
   getImages(url) {
@@ -30,6 +31,9 @@ class Main extends Component {
     return (
       <div id="main">
         {images}
+        <div id="reload-button" onClick={()=>{this.getImages(this.catimages_url)}}>
+        <i className="fas fa-sync-alt"></i>
+      </div>
       </div>
     );
   }
